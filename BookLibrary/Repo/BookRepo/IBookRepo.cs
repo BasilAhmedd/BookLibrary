@@ -9,6 +9,7 @@ namespace BookLibrary.Repo.BookRepo
         BookDTO GetById(int id);
 
         void AddedBook(BookDTO bookDTO);
+        void AddBookOnly(BookDTO bookDTO);
         void UpdateBook(BookDTO bookDTO,int id);
         void DeleteBook(int id);
     }
