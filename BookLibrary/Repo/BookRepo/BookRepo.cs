@@ -86,7 +86,6 @@ namespace BookLibrary.Repo.BookRepo
                     Email = b.Email,
                     Name = b.Name,
                     }).ToList(),
-            
             };
         }  
         public void UpdateBook(BookDTO bookDTO, int id)

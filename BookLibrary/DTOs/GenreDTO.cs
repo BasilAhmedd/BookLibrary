@@ -6,5 +6,7 @@ namespace BookLibrary.DTOs
     {
         [Required]
         public string Name { get; set; }
+
+        public List<BookDTO>? bookDTOs { get; set; } = new List<BookDTO>();
     }
 }
