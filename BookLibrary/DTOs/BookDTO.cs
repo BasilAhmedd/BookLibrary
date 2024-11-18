@@ -1,7 +1,10 @@
-﻿namespace BookLibrary.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BookLibrary.DTOs
 {
     public class BookDTO
     {
+        [Required]
         public string Title { get; set; }
         public DateTime PublishedYear { get; set; }
         // add , update
